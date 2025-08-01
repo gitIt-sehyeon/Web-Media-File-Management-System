@@ -70,6 +70,8 @@ uvicorn main:app --reload
 Now visit: http://127.0.0.1:8000
 Swagger UI: http://127.0.0.1:8000/docs
 
+---
+
 🐳 2. Run with Docker
 Prerequisites
 Docker installed and running
@@ -83,6 +85,8 @@ docker build -t web-media-app .
 docker run -d -p 8000:8000 web-media-app
 ```
 Then go to: http://localhost:8000
+
+---
 
 ☸️ 3. Run with Kubernetes
 Prerequisites
@@ -113,3 +117,5 @@ minikube service web-media-service
 kubectl get svc
 #Check your PORT(S) then access http://127.0.0.1:{your_PORT}/docs
 ```
+
+---
