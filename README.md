@@ -24,7 +24,7 @@ A Python-based system to upload, manage, clean up, and analyze media files (imag
 
 ### C4 Container View
 
-![C4 Diagram](images/c4-container.png)
+![C4 Diagram](images/c4-container-diagram.png)
 
 ---
 
