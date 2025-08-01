@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode settings (optional)
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+
+# Local environment variables or secrets
+.env
+
+# Jupyter or temporary notebooks (if any)
+*.ipynb_checkpoints/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Kubernetes secrets or manifests (if private)
+*.secret.yaml
+
+# Image builds (optional)
+*.tar
+*.img
