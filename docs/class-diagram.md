@@ -15,31 +15,31 @@ The following image shows the class structure of the system:
 
 ##  Main Classes
 
-### 🔹 `File`
+###  `File`
 - Represents a media file with basic attributes such as filename, size, and type.
 - Implements the `accept()` method to support metadata extraction using the Visitor pattern.
 
-### 🔹 `FileType` (Enum)
+###  `FileType` (Enum)
 - Enum representing supported types: `IMAGE`, `VIDEO`, `AUDIO`.
 
-### 🔹 `Metadata`
+###  `Metadata`
 - Stores metadata extracted from a file as key-value pairs.
 - Provides `get()` and `set()` methods.
 
-### 🔹 `MetadataVisitor` (Interface)
+###  `MetadataVisitor` (Interface)
 - Defines the interface for visiting different file types (`visitImage`, `visitVideo`, `visitAudio`).
 
-### 🔹 Visitors
+###  Visitors
 - `ImageVisitor`, `VideoVisitor`, `AudioVisitor` implement metadata extraction logic for each media type.
 
 ---
 
 ##  Cleanup Strategy
 
-### 🔹 `CleanupStrategy` (Interface)
+###  `CleanupStrategy` (Interface)
 - Defines a strategy interface for determining whether a file should be deleted.
 
-### 🔹 Implementations:
+###  Implementations:
 - `OldFileStrategy`: Deletes files older than a certain threshold.
 - `LargeFileStrategy`: Deletes files exceeding a certain size.
 
