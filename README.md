@@ -88,7 +88,7 @@ Then go to: http://localhost:8000
 
 ---
 
-### ☸️ 3. Run with Kubernetes
+### 3. Run with Kubernetes
 Prerequisites
 Kubernetes cluster (e.g., Minikube or Docker Desktop)
 
