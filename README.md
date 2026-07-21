@@ -72,7 +72,7 @@ Swagger UI: http://127.0.0.1:8000/docs
 
 ---
 
-### 🐳 2. Run with Docker
+### 2. Run with Docker
 Prerequisites
 Docker installed and running
 
